@@ -4,6 +4,7 @@ alert ( "Welcome " + Name );
 // console.log("welcome  "+ Name);
 alert(" Be ready for Y/N questions :) " );
 
+function Q1(){
 let q1 = prompt(" Can we mix the oil with water or vice versa ? ( yes or no ) ").toLowerCase();
 switch (q1) {
     case 'yes':
@@ -18,9 +19,11 @@ switch (q1) {
     //console.log('dear '+ Name + ' please answer yes or no');    
     alert('dear '+ Name + " please answer yes or no");
     break;
+    return;
 }
+Q1();
 
-
+function Q2(){
 let q2 = prompt(" Are charcoal and diamond the same element in terms of chemical composition? ( yes or no ) ").toLowerCase();
 switch (q2) {
     case 'yes':
@@ -35,9 +38,11 @@ switch (q2) {
     //console.log('dear '+ Name + ' please answer yes or no');    
     alert('dear '+ Name + " please answer yes or no")
     break;
-}
+    return;
+} }
+Q2();
 
-
+function Q3(){
 let q3 = prompt(" Does the benzene that we filled in our car consist of Benzene element ? ( yes or no ) ").toLowerCase();
 switch (q3) {
     case 'yes':
@@ -51,11 +56,14 @@ switch (q3) {
     default:
     //console.log('dear '+ Name + ' please answer yes or no');    
     alert('dear '+ Name + " please answer yes or no")
-    break; }
+    break;
+return;
+} }
+Q3();
 
 
 
-
+function Q4(){
 let q4 = prompt(" Can we convert Lead into Gold ? ( yes or no ) ").toLowerCase();
 switch (q3) {
     case 'yes':
@@ -69,10 +77,12 @@ switch (q3) {
     default:
     //console.log('dear '+ Name + ' please answer yes or no');    
     alert('dear '+ Name + " please answer yes or no")
-    break; }
+    break;
+return; } }
+Q4();
 
 
-
+function Q5(){
 let q5 = prompt(" if we add salt to complete cup of water , does the amount increase and overfolowing  ? ( yes or no ) ").toLowerCase();
 switch (q3) {
     case 'yes':
@@ -88,10 +98,12 @@ switch (q3) {
     alert('dear '+ Name + " please answer yes or no")
     break; }
 alert( " thank you " + Name + " hope you enjoy with us :) ");  
+return; }
+Q5();
 
 
 
-
+function Q6(){
    for (let i = 1; i < 5 ; i++){
     let q6 = Number(prompt( " guess a number (enter the number belwo) "));
     if (q6 ===7) {
@@ -106,9 +118,11 @@ alert( " thank you " + Name + " hope you enjoy with us :) ");
     }
     alert("all attempts have been exausted , the correct answer is 7 ");
 }
+return; }
+Q6();
 
          
-
+function Q7(){
 let k = 0;
 var j = 0;
 let i = 0;
@@ -126,4 +140,6 @@ while (j < 5){
     }
      
   }
-  alert ('the all correct answer are yellow , orange and red');
+  alert ('the all correct answer are yellow , orange and red') ; }
+  return; }
+  Q7();
