@@ -86,7 +86,7 @@ switch (q3) {
     default:
     //console.log('dear '+ Name + ' please answer yes or no');    
     alert('dear '+ Name + " please answer yes or no")
-    break; 
+    break; }
 alert( " thank you " + Name + " hope you enjoy with us :) ");  
 
 
@@ -116,15 +116,14 @@ let color = ['red' , 'yellow' , 'orange'];
 let q7 = prompt("what is my fav color? ");
 while (j < 5){
   
-    if ( q7 === "yellow" || q7 === "red" || q7==="orange"){
+    if ( q7 === color[0] || q7 === color[1] || q7===[2]){
     alert("correct answer :) ");break;}
   
-    if (q7 !== 'yellow' || q7 !== "red" || q7!== "orange") {
+   if ( q7 !== color[0] || q7 === color[1] || q7===color[2]){
       q7 = prompt('try again');
       alert(" not the correct answer, please try again");
       j++;
     }
      
   }
-
-  alert('the all correct answer are yellow , orange and red');
+  alert ('the all correct answer are yellow , orange and red');
