@@ -10,7 +10,10 @@
  border-bottom: 3px solid #665544;
 border-color: rgb(27, 27, 27);
 border-width: 100 px;
-background-color: rgb(211, 194, 174);}
+background-color: rgb(211, 194, 174);
+position: fixed;
+right: 0;
+}
 
 body {
     background-image: url(https://dave4math.b-cdn.net/wp-content/uploads/2019/12/Chemistry-Abstract-molecule-model-Scientific-research-in-molecular-chemistry-3D-illustration-on-a-blue-background-scaled-1-768x473.jpeg);
@@ -19,10 +22,12 @@ body {
 }
 
 div ol {
-    background-color: gray;
+    background-color:#D1A9AE;
     display: inline-block;
     width: 275px;
     padding: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
 
 
 }
@@ -37,10 +42,22 @@ div ul {
 
 h1 {
     text-align: center;
+    text-shadow:2px 2px rgb(211, 194, 174);
+
 }
 
 header nav ul li a {
-    /*background-color: black;*/
+    background-color:#56ACD9;
     text-decoration:none;
+}
+
+div h3 {
+    border-width: 10px;
+    color:rosybrown;
+    margin-left: 30px;
+    border-style: dotted;
+    padding-left: 10px;
+    width:400px;
+    bottom: 20px;
 }
 
